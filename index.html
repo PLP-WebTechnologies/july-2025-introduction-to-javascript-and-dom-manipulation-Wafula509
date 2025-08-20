@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Mastery Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Mastery Assignment</h1>
+    </header>
+
+    <main>
+        <section id="part1">
+            <h2>Part 1: Mastering JavaScript Basics</h2>
+            <form>
+                <label for="ageInput">Enter your age:</label>
+                <input type="number" id="ageInput" placeholder="e.g. 18" aria-describedby="ageResult">
+                <button type="button" id="checkAgeBtn">Check Age</button>
+            </form>
+            <p id="ageResult" aria-live="polite"></p>
+        </section>
+
+        <hr>
+
+        <section id="part2">
+            <h2>Part 2: JavaScript Functions</h2>
+            <form>
+                <label for="numberForSquare">Enter a number:</label>
+                <input type="number" id="numberForSquare" placeholder="e.g. 5" aria-describedby="squareResult">
+                <button type="button" id="calculateSquareBtn">Calculate Square</button>
+            </form>
+            <p id="squareResult" aria-live="polite"></p>
+
+            <p>Toggle the visibility of the text below:</p>
+            <p id="toggleText" class="hidden" tabindex="0">This text can be toggled on and off!</p>
+            <button id="toggleButton">Toggle Text</button>
+        </section>
+
+        <hr>
+
+        <section id="part3">
+            <h2>Part 3: JavaScript Loops</h2>
+            <h3>Counting Down:</h3>
+            <p id="countdownOutput" aria-live="polite"></p>
+
+            <h3>Dynamic List (Even Numbers):</h3>
+            <ul id="evenNumbersList"></ul>
+        </section>
+
+        <hr>
+
+        <section id="part4">
+            <h2>Part 4: Mastering the DOM with JavaScript</h2>
+            <h3>Click Me to Change Text!</h3>
+            <button id="changeTextBtn">Click to Change Title</button>
+            <p id="dynamicParagraph">Original paragraph text.</p>
+
+            <h3>Add a New List Item:</h3>
+            <form>
+                <label for="newItemInput">New item text:</label>
+                <input type="text" id="newItemInput" placeholder="Type new item">
+                <button type="button" id="addItemBtn">Add Item</button>
+            </form>
+            <ul id="dynamicList">
+                <li>Existing Item 1</li>
+            </ul>
+
+            <h3>Toggle Highlight Class:</h3>
+            <div id="highlightBox">
+                <p>Click the button to toggle my highlight!</p>
+                <button id="toggleHighlightBtn">Toggle Highlight</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 JavaScript Mastery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
